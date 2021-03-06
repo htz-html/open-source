@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap{
+  text-align: center;
+  width: 370px;
+  height: 200px;
+}
+#myCanvas{
+  border: 1px solid #ccc;
+}
+.canvas{
+  text-align: center;
+}
+.btn{
+  margin-top: 10px;
+  width: 120px;
+  height: 44px;
+  border-radius: 3px;
+  background: rgb(84,58,183);
+  color: #fff;
+}
+#val{
+  margin: 10px 0;
+  height: 44px;
+  width: 250px;
+  padding: 0 10px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
